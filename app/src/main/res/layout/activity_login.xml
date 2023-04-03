@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+    
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/user_mobile"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/user_login_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"/>
+
+        <Button
+            android:id="@+id/user_registration_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"/>
+
+        
+        
+    </LinearLayout>
+    
+    
+
+   
+</ScrollView>
